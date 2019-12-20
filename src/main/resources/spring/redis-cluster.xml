@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder system-properties-mode="OVERRIDE"
+                                  ignore-unresolvable="true"
+                                  ignore-resource-not-found="false" location="classpath:properties/redis-cluster.properties"/>
+    <bean id="jedisCluster" class="com.mico.redis.JedisClusterFactory">
+        <property name="connectionTimeout" value="3000"/>
+        <property name="soTimeout" value="3000"/>
+        <property name="maxRedirections" value="5"/>
+        <property name="enhancedJedisPoolConfig" ref="jedisClusterPoolConfig"/>
+        <property name="jedisClusterNodes" ref="redisClusterNode"/>
+    </bean>
+    <bean id="redisClusterNode" class="redis.clients.jedis.HostAndPort">
+        <constructor-arg name="host" value="${redis.cluster.node2.host}"/>
+        <constructor-arg name="port" value="${redis.cluster.node2.port}"/>
+    </bean>
+    <bean id="jedisClusterPoolConfig" class="com.mico.redis.EnhancedJedisPoolConfig">
+        <property name="maxTotal" value="${jedis.cluster.maxActive}"/>
+        <property name="maxIdle" value="${jedis.cluster.maxIdle}"/>
+        <property name="minIdle" value="${jedis.cluster.minIdle}"/>
+        <property name="blockWhenExhausted" value="true"/>
+        <property name="timeout" value="${jedis.cluster.time}"/>
+        <property name="maxWaitMillis" value="${jedis.cluster.maxWait}"/>
+        <property name="lifo" value="${jedis.cluster.lifo}"/>
+        <property name="testOnBorrow" value="${jedis.cluster.testOnBorrow}"/>
+        <property name="testOnReturn" value="${jedis.cluster.testOnReturn}"/>
+        <property name="testWhileIdle" value="${jedis.cluster.testWhileIdle}"/>
+        <property name="numTestsPerEvictionRun" value="${jedis.cluster.numTestsPerEvictionRun}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${jedis.cluster.timeBetweenEvictionRunsMills}"/>
+        <property name="softMinEvictableIdleTimeMillis" value="${jedis.cluster.softMinEvictableIdleTimeMillis}"/>
+        <property name="minEvictableIdleTimeMillis" value="${jedis.cluster.minEvictableIdleTimeMillis}"/>
+    </bean>
+
+</beans>
