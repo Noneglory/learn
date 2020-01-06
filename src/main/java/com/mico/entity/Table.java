@@ -8,15 +8,15 @@ import java.sql.SQLException;
 
 public class Table implements RowMapper<Table> {
     private String name;
-    private Integer age;
+    private Integer money;
     private Integer id;
 
     public Table() {
     }
 
-    public Table(String name, Integer age, Integer id) {
+    public Table(String name, Integer money, Integer id) {
         this.name = name;
-        this.age = age;
+        this.money = money;
         this.id = id;
     }
 
@@ -24,7 +24,7 @@ public class Table implements RowMapper<Table> {
     public String toString() {
         return "Table{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", money=" + money +
                 ", id=" + id +
                 '}';
     }
@@ -37,12 +37,12 @@ public class Table implements RowMapper<Table> {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    public Integer getMoney() {
+        return money;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setMoney(Integer money) {
+        this.money = money;
     }
 
     public Integer getId() {
@@ -57,7 +57,7 @@ public class Table implements RowMapper<Table> {
     public Table mapRow(ResultSet resultSet, int rowcount) throws SQLException {
         Table table = new Table();
         table.setName(resultSet.getString("name"));
-        table.setAge(resultSet.getInt("age"));
+        table.setMoney(resultSet.getInt("money"));
         table.setId(resultSet.getInt("id"));
         return table;
     }

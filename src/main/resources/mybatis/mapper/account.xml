@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mico.mybatis.Iface.IAccount">
+
+	<resultMap id="userlist" type="com.mico.mybatis.pojo.UserList">
+		<id property="uid" column="uid"/>
+		<result property="uname" column="uname"/>
+		<association property="account" javaType="com.mico.mybatis.pojo.Account" >
+			<id property="id" column="id" />
+			<result property="uid" column="uid" />
+			<result property="name" column="name" />
+			<result property="money" column="money" />
+		</association>
+		<collection property="accountList" ofType="com.mico.mybatis.pojo.Account">
+			<id property="id" column="id" />
+			<result property="uid" column="uid" />
+			<result property="name" column="name" />
+			<result property="money" column="money" />
+		</collection>
+	</resultMap>
+
+
+
+    <insert id="accountInsert" parameterType="com.mico.mybatis.pojo.Account">
+		insert into account values (#{id},#{name},#{money});
+	</insert>
+	
+	<select id="getAccountById" parameterType="int" resultType="com.mico.mybatis.pojo.Account">
+		select * from account where id=#{_parameter};
+	</select>
+
+	<select id="getUserAccount" parameterType="int" resultMap="userlist">
+		select u.uid,u.uname,a.id,a.uid,a.money,a.name from user u left  join account a on u.uid=a.id
+		where u.uid=#{_parameter}
+	</select>
+
+	<select id="getUserListById" parameterType="int" resultMap="userlist">
+		select u.uid,u.uname,a.id,a.uid,a.money,a.name from user u left  join account a on u.uid=a.uid
+		where u.uid=#{_parameter}
+	</select>
+
+	<delete id="batchUserDelete" parameterType="java.util.List">
+		DELETE FROM user WHERE uid IN
+		<foreach collection="list" item="item" separator="," open="(" close=")">
+			#{item}
+		</foreach>
+
+	</delete>
+
+	<insert id="batchUserInsert" parameterType="java.util.List">
+		insert into user values
+		<foreach collection="list" item="item"  open="(" close=")">
+			#{item.uid},#{item.uname}
+		</foreach>
+	</insert>
+
+	<update id="UserUpdateByUser" parameterType="com.mico.mybatis.pojo.User">
+			update user
+		<set>
+			<if test="uid!=null and 0 !=uid">
+			    uid=#{uid},
+			</if>
+			<if test="uname!=null and !&quot;&quot; .equals(uname.trim())">
+				uname=#{uname},
+			</if>
+		</set>
+		<where>
+			<if test="uid!=null and 0 !=uid">
+				 and uid=#{uid}
+			</if>
+		</where>
+	</update>
+
+</mapper>

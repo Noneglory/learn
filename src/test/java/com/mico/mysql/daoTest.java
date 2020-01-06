@@ -15,7 +15,7 @@ public class daoTest {
     private TableImpl tableimpl;
     @Test
     public void queryStudnet() {
-        String sql="select * from mytable where id=3";
+        String sql="select * from account where id=1";
         System.out.println(tableimpl.queryStudnet(sql));
     }
     @Test

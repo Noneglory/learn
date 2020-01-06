@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置整合mybatis过程-->
+    <!-- 1:配置数据库相关参数properties的属性，${url}} -->
+    <context:property-placeholder location="mybatis/jdbc.properties"/>
+
+    <!--数据库连接池-->
+    <!--abstract属性为true，spring不会为改类创建对象-->
+    <bean id="AbstractDataSource" abstract="true" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!-- c3p0连接池的私有属性-->
+        <property name="maxPoolSize" value="30"/>
+        <property name="minPoolSize" value="10"/>
+        <!--关闭连接后不主动commit-->
+        <property name="autoCommitOnClose" value="false"/>
+        <!--获取连接超时时间-->
+        <property name="checkoutTimeout" value="10000"/>
+        <!--当前连接失败重试次数-->
+        <property name="acquireRetryAttempts" value="2"/>
+    </bean>
+
+    <!--这里master与slave暂时用同一个，理论上从库是只允许查询，是不允许做增删改操作的-->
+    <bean id="master" parent="AbstractDataSource">
+        <property name="driverClass" value="${db.driver}"/>
+        <property name="jdbcUrl" value="${db.jdbcUrl}"/>
+        <property name="user" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+    </bean>
+
+    <bean id="slave" parent="AbstractDataSource">
+        <property name="driverClass" value="${db.driver}"/>
+        <property name="jdbcUrl" value="${db.jdbcUrl}"/>
+        <property name="user" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+    </bean>
+
+    <!--配置动态数据源，这儿的targetDataSources就是路由数据源所对应的名称-->
+    <bean id="dynamicDataSource" class="com.mico.mybatis.dynamicdatasource.DynamicDataSource">
+        <property name="targetDataSources">
+            <map>
+                <!-- value-ref 对应xml配置的bean，key对应DynamicDataSourceInterceptor的lookupKey-->
+                <entry value-ref="slave" key="slave"/>
+                <entry value-ref="master" key="master"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy">
+        <property name="targetDataSource" ref="dynamicDataSource"/>
+    </bean>
+
+    <!--配置SqlSessionFactory对象-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据库连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--配置Mybatis的全局配置文件mybatis-config.xml-->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+        <!--扫描entity包，使用别名-->
+        <!--<property name="typeAliasesPackage" value=""/>-->
+        <!--扫描sql配置文件：mapper需要的xml文件-->
+        <!--这里也可以使用userDao.xml，表示mapper路径下的所有xml文件-->
+        <property name="mapperLocations" value="classpath:mybatis/mapper/*.xml"/>
+    </bean>
+
+    <!--配置扫描DAO接口包，动态实现Dao接口，注入到spring容器中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--注入sqlSessionFactory-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--给出需要扫描Dao接口包，会扫描com.mico.mybatis.Iface的所有接口，然后创建各自接口的动态代理类-->
+        <property name="basePackage" value="com.mico.mybatis.Iface"/>
+    </bean>
+
+
+</beans>
