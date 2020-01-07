@@ -72,4 +72,13 @@
 		</where>
 	</update>
 
+
+	<update id="accountAddmoney">
+  		update account set money=money+#{money} where id=#{account.id}
+	</update>
+
+	<update id="accountSubmoney">
+		update account set money =money-#{money} where id=#{account.id}
+	</update>
+
 </mapper>

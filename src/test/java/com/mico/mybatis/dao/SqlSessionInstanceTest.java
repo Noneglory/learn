@@ -12,6 +12,9 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * 纯mybatis的开发测试
+ */
 public class SqlSessionInstanceTest {
 
     @Test
@@ -94,6 +97,27 @@ public class SqlSessionInstanceTest {
         mapper.UserUpdateByUser(user);
         sqlSession.commit();
     }
+
+
+    @Test
+    public void accountAddmoneyTest(){
+        SqlSession sqlSession = SqlSessionInstance.getSqlSession();
+        System.out.println(sqlSession);
+        IAccount mapper = sqlSession.getMapper(IAccount.class);
+        Account account = new Account(1,2,"fasd",11);
+        mapper.accountAddmoney(account,100);
+        sqlSession.commit();
+    }
+
+    @Test
+    public void accountSubmoneyTest(){
+        SqlSession sqlSession = SqlSessionInstance.getSqlSession();
+        IAccount mapper = sqlSession.getMapper(IAccount.class);
+        Account account = new Account(1,2,"fasd",11);
+        mapper.accountSubmoney(account,100);
+        sqlSession.commit();
+    }
+
 
 
 

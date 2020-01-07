@@ -6,4 +6,12 @@
     <select id="queryUser" resultType="com.mico.mybatis.pojo.User">
 		SELECT * from user order by uid desc
 	</select>
+
+	<update id="updateaccountAddmoney">
+  		update account set money=money+#{money} where id=#{account.id}
+	</update>
+
+	<update id="updateaccountSubmoney">
+		update account set money =money-#{money} where id=#{account.id}
+	</update>
 </mapper>
