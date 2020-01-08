@@ -53,7 +53,7 @@ public class Entriance {
         String statementType = mappedStatement.getStatementType();
         if("prepared".equals(statementType))
         {
-            //3:获取statment，由三种statment，preparedstatment，callabeStatement
+            //3:获取statment，由三种,statment，preparedstatment，callabeStatement
             PreparedStatement preparedStatement= connection.prepareStatement(sql);
             //4:设置参数
             handleParameter(preparedStatement,mappedStatement,boundSql,param);

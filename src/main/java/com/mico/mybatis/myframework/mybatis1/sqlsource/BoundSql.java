@@ -10,7 +10,7 @@ import java.util.List;
  * @date 2020/01/06
  */
 public class BoundSql {
-    private String sql;
+    private String sql; //已经进行过初步解析的sql语句，${}处理过后的sql，
     private List<ParameterMapping> ParameterMapping =new ArrayList<>();
 
     public BoundSql(String sql, List<ParameterMapping> parameterMapping) {

@@ -72,6 +72,15 @@
         <!--扫描sql配置文件：mapper需要的xml文件-->
         <!--这里也可以使用userDao.xml，表示mapper路径下的所有xml文件-->
         <property name="mapperLocations" value="classpath:mybatis/mapper/*.xml"/>
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>helperDialect=mysql</value>
+                    </property>
+                </bean>
+            </array>
+        </property>
     </bean>
 
     <!--配置扫描DAO接口包，动态实现Dao接口，注入到spring容器中-->
@@ -83,11 +92,11 @@
     </bean>
 
                                         <!--配置注解-->
-    <context:component-scan base-package="com.mico.mybatis.tx"></context:component-scan>
+    <context:component-scan base-package="com.mico.mybatis"/>
     <!--配置事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <!--注入数据库连接池-->
-        <property name="dataSource" ref="dataSource"></property>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
     <!--配置基于注解的声明式事务-->
     <tx:annotation-driven transaction-manager="transactionManager"/>

@@ -104,6 +104,7 @@ public class XmlParseHelper {
     private void mapperParse(Element mapperElement) throws ClassNotFoundException {
         String namespace = mapperElement.attributeValue("namespace");
         Element selectElement = mapperElement.element("select");
+
         String id = selectElement.attributeValue("id");
         String statementId = namespace+"."+id;
 

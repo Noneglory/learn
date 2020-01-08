@@ -25,4 +25,5 @@ public interface IAccount {
     void accountAddmoney(@Param(value = "account") Account account, @Param(value = "money") int money);
     void accountSubmoney(@Param(value="account") Account account,@Param(value = "money") int money);
 
+
 }

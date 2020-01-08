@@ -5,7 +5,7 @@ import com.mico.mybatis.myframework.mybatis1.handler.BindingTokenParser;
 import com.mico.mybatis.myframework.mybatis1.utils.GenericTokenParser;
 
 /**
- * describe: 封装的是带有${}的文本字符串,会对${}进行解析
+ * describe: 只要sql语句中有${}就会封装到该类里面
  *
  * @author leijiang
  * @date 2020/01/06

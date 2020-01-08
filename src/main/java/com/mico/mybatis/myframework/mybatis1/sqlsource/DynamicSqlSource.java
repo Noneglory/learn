@@ -9,6 +9,8 @@ import com.mico.mybatis.myframework.mybatis1.utils.GenericTokenParser;
  * describe:封装带有${}或者动态SQL标签的SQL信息
  * 对可执行的sql以及所需的参数列表进行封装
  *
+ * rootSqlNode 为由sql节点组成的一个集合节点
+ *
  * @author leijiang
  * @date 2020/01/06
  */
@@ -19,6 +21,13 @@ public class DynamicSqlSource implements SqlSource {
     }
 
 
+    /**
+     * 当需要获取BoundSql时，会对rootSqlNode进行解析，
+     * apply()方法就是对${}方法进行解析，并替换成相应的值
+     * 在这里把#{}变成？,并且把参数保存在parameterMappings
+     * @param param
+     * @return
+     */
     @Override
     public BoundSql getBoundSql(Object param) {
 
