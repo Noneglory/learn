@@ -1,100 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c687dc3a-4113-4af0-88b9-d78e03a69702" name="Default Changelist" comment="手写mybatis代码">
+    <list default="true" id="c687dc3a-4113-4af0-88b9-d78e03a69702" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/entity/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/etcd/EtcdDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/learn/LearnApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mongodb/Custom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mongodb/MongoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mongodb/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/Iface/IAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/Iface/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/autoconfig/pojo/instruction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/dao/SqlSessionInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/dynamicdatasource/DynamicDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/dynamicdatasource/DynamicDataSourceHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/dynamicdatasource/DynamicDataSourceInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/Entriance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/config/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/config/DataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/config/MappedStatement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/handler/BindingTokenParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/handler/ParameterMappingTokenHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/handler/iface/TokenHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/po/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/DynamicContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/IfSqlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/MixedSqlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/StaticTextSqlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/TextSqlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlnode/iface/SqlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/BoundSql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/DynamicSqlSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/ParameterMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/RawSqlSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/SqlSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/StaticSqlSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/utils/GenericTokenParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/utils/OgnlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/utils/SimpleTypeRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/xmlparse/XmlParseHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/pagehelper/MyPageHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/pojo/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/pojo/UserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mybatis/tx/UserTransaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/mysql/TableImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/other/Jdbc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/redis/EnhancedJedisPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mico/redis/JedisClusterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/account.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/userDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/userDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/myframework/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/myframework/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/redis-cluster.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/redis-cluster.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/JdbcTEst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/etcd/EtcdTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/learn/LearnApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mongo/MongoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mybatis/Iface/UserDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mybatis/basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mybatis/dao/SqlSessionInstanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mybatis/pagehelper/MyPageHelperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mybatis/tx/UserTransactionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mysql/MysqlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/mysql/daoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mico/redis/JedisClusterFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/entity/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/entity/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/etcd/EtcdDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/learn/LearnApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/mongodb/Custom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/mongodb/MongoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/mongodb/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/mysql/TableImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/redis/EnhancedJedisPoolConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mico/redis/JedisClusterFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/redis-cluster.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/redis-cluster.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/JdbcTEst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/basic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/etcd/EtcdTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/learn/LearnApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/mongo/MongoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/mysql/MysqlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/mysql/daoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mico/redis/JedisClusterFactoryTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,11 +46,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="37">
               <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -193,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/mico/mybatis/pagehelper/MyPageHelperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/pagehelper/MyPageHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/sqlsource/BoundSql.java" />
@@ -244,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/sqlsource/BoundSql.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mico/mysql/daoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -286,7 +212,48 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -305,7 +272,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578485522916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578486149373" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -482,7 +449,7 @@
       <workItem from="1576823395839" duration="11865000" />
       <workItem from="1578098700906" duration="15864000" />
       <workItem from="1578279178787" duration="29737000" />
-      <workItem from="1578384942449" duration="21442000" />
+      <workItem from="1578384942449" duration="21974000" />
     </task>
     <task id="LOCAL-00001" summary="mongo集成">
       <created>1576826023420</created>
@@ -533,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578446144915</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="learn 2.0">
+      <created>1578485639133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578485639133</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -569,19 +543,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69240000" />
+    <option name="totallyTimeSpent" value="69772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87737477" visible="true" weight="0.3378016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8713768" visible="true" weight="0.3378016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.12262522" side_tool="true" visible="true" weight="0.3378016" />
+      <window_info id="Favorites" order="6" sideWeight="0.12862319" side_tool="true" visible="true" weight="0.3378016" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33431086" />
@@ -591,10 +565,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.12903225" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5723861" visible="true" weight="0.19061583" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32991204" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.23607038" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.1510264" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.42761394" side_tool="true" visible="true" weight="0.19061583" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.43695015" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.32991204" />
@@ -683,7 +657,8 @@
     <MESSAGE value="基于注解的声明式事务" />
     <MESSAGE value="pagehelper分页" />
     <MESSAGE value="手写mybatis代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="手写mybatis代码" />
+    <MESSAGE value="learn 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" />
@@ -740,13 +715,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/sqlnode/DynamicContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/sqlnode/IfSqlNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1080,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/xmlbuilder/XMLConfigBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1183,8 +1144,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="37">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
