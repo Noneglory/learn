@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mico.mybatis.Iface.UserDao">
-    <select id="queryUser" resultType="com.mico.mybatis.pojo.User">
+<mapper namespace="com.skills.mybatis.Iface.UserDao">
+    <select id="queryUser" resultType="com.skills.mybatis.pojo.User">
 		SELECT * from user order by uid desc
 	</select>
 

@@ -4,11 +4,11 @@
 		<environment id="dev">
 			<!-- 配置数据源信息 -->
 			<dataSource type="DBCP">
-				<property name="driver" value="com.mysql.jdbc.Driver"></property>
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
 				<property name="url"
-					value="jdbc:mysql://47.244.9.85:3306/kkb"></property>
-				<property name="username" value="kkb"></property>
-				<property name="password" value="kkb123"></property>
+					value="jdbc:mysql://47.244.9.85:3306/kkb"/>
+				<property name="username" value="kkb"/>
+				<property name="password" value="kkb123"/>
 			</dataSource>
 		</environment>
 	</environments>
@@ -16,7 +16,7 @@
 	<!-- 映射文件加载 -->
 	<mappers>
 		<!-- resource指定映射文件的类路径 -->
-		<mapper resource="mybatis/myframework/UserMapper.xml"></mapper>
+		<mapper resource="mybatis/myframework/UserMapper.xml"/>
 		<!-- <mapper resource="mapper/UserMapper.xml"></mapper> -->
 		<!-- <mapper resource="mapper/UserMapper.xml"></mapper> -->
 		<!-- <mapper resource="mapper/UserMapper.xml"></mapper> -->

@@ -47,7 +47,7 @@
     </bean>
 
     <!--配置动态数据源，这儿的targetDataSources就是路由数据源所对应的名称-->
-    <bean id="dynamicDataSource" class="com.mico.mybatis.dynamicdatasource.DynamicDataSource">
+    <bean id="dynamicDataSource" class="com.skills.mybatis.dynamicdatasource.DynamicDataSource">
         <property name="targetDataSources">
             <map>
                 <!-- value-ref 对应xml配置的bean，key对应DynamicDataSourceInterceptor的lookupKey-->
@@ -87,12 +87,12 @@
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--注入sqlSessionFactory-->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <!--给出需要扫描Dao接口包，会扫描com.mico.mybatis.Iface的所有接口，然后创建各自接口的动态代理类-->
-        <property name="basePackage" value="com.mico.mybatis.Iface"/>
+        <!--给出需要扫描Dao接口包，会扫描com.skills.mybatis.Iface的所有接口，然后创建各自接口的动态代理类-->
+        <property name="basePackage" value="com.skills.mybatis.Iface"/>
     </bean>
 
                                         <!--配置注解-->
-    <context:component-scan base-package="com.mico.mybatis"/>
+    <context:component-scan base-package="com.skills.mybatis"/>
     <!--配置事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <!--注入数据库连接池-->

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mico.mybatis.Iface.IAccount">
+<mapper namespace="com.skills.mybatis.Iface.IAccount">
 
-	<resultMap id="userlist" type="com.mico.mybatis.pojo.UserList">
+	<resultMap id="userlist" type="com.skills.mybatis.pojo.UserList">
 		<id property="uid" column="uid"/>
 		<result property="uname" column="uname"/>
-		<association property="account" javaType="com.mico.mybatis.pojo.Account" >
+		<association property="account" javaType="com.skills.mybatis.pojo.Account" >
 			<id property="id" column="id" />
 			<result property="uid" column="uid" />
 			<result property="name" column="name" />
 			<result property="money" column="money" />
 		</association>
-		<collection property="accountList" ofType="com.mico.mybatis.pojo.Account">
+		<collection property="accountList" ofType="com.skills.mybatis.pojo.Account">
 			<id property="id" column="id" />
 			<result property="uid" column="uid" />
 			<result property="name" column="name" />
@@ -22,11 +22,11 @@
 
 
 
-    <insert id="accountInsert" parameterType="com.mico.mybatis.pojo.Account">
+    <insert id="accountInsert" parameterType="com.skills.mybatis.pojo.Account">
 		insert into account values (#{id},#{name},#{money});
 	</insert>
 	
-	<select id="getAccountById" parameterType="int" resultType="com.mico.mybatis.pojo.Account">
+	<select id="getAccountById" parameterType="int" resultType="com.skills.mybatis.pojo.Account">
 		select * from account where id=#{_parameter};
 	</select>
 
@@ -55,7 +55,7 @@
 		</foreach>
 	</insert>
 
-	<update id="UserUpdateByUser" parameterType="com.mico.mybatis.pojo.User">
+	<update id="UserUpdateByUser" parameterType="com.skills.mybatis.pojo.User">
 			update user
 		<set>
 			<if test="uid!=null and 0 !=uid">

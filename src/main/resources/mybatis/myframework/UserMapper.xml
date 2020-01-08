@@ -1,8 +1,19 @@
 <mapper namespace="test">
 	<!-- select标签，封装了SQL语句信息、入参类型、结果映射类型 -->
+
+	<!--
+	mybatis1:
+	parameterType="com.skills.mybatis.myframework.mybatis1.po.User"
+	resultType="com.skills.mybatis.myframework.mybatis1.po.User"
+	mybatis2:
+	parameterType="com.skills.mybatis.myframework.mybatis2.po.User"
+	resultType="com.skills.mybatis.myframework.mybatis2.po.User"
+	-->
+
+	<!-- select标签，封装了SQL语句信息、入参类型、结果映射类型 -->
 	<select id="findUserById"
-		parameterType="com.mico.mybatis.myframework.mybatis1.po.User"
-		resultType="com.mico.mybatis.myframework.mybatis1.po.User" statementType="prepared">
+			parameterType="com.skills.mybatis.myframework.mybatis2.po.User"
+			resultType="com.skills.mybatis.myframework.mybatis2.po.User" statementType="prepared">
 		SELECT * FROM user WHERE id = #{id}
 
 		<!-- and sex = #{sex} AND username like '%${username}' -->
@@ -12,5 +23,13 @@
 				AND 1=1
 			</if>
 		</if>
+	</select>
+
+	<select id="findUserList"
+			parameterType="com.skills.mybatis.myframework.mybatis2.po.User"
+			resultType="com.skills.mybatis.myframework.mybatis2.po.User" statementType="prepared">
+		SELECT * FROM user
+
+
 	</select>
 </mapper>

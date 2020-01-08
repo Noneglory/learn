@@ -17,6 +17,6 @@
 
     <!--拦截器的配置-->
     <plugins>
-        <plugin interceptor="com.mico.mybatis.dynamicdatasource.DynamicDataSourceInterceptor"></plugin>
+        <plugin interceptor="com.skills.mybatis.dynamicdatasource.DynamicDataSourceInterceptor"></plugin>
     </plugins>
 </configuration>
