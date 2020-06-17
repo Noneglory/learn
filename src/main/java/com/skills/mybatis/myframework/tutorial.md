@@ -4,7 +4,7 @@ mybatis的核心流程：
  1.1: 对Configuration.xml文件进行解析，environment标签封装成数据源(有数据库连接的对象)，将所有的xml封装成一个Configuration对象
  1.2：根据mapper标签获取mapper文件，对mapper文件进行解析，获取其namespace。
  1.3：解析mappers中的sql，resultMap，进行保存
- 1.4：解析CURD(select|update|read|delete)标签,一个CURD标签封装成一个mappedstatment，放在Configuration的List集合里，
+ 1.4：解析CURD(select|update|read|delete)标签,一个CURD标签封装成一个sqlsource，放在Configuration的List集合里，
  key=namespace(mapper的)+id(CURD标签的),每一个mappedstatement都包括了parametertype，resultmap，resulttype，SqlSource，
  sql语句处理：对每个sql脚本或动态标签封装成相应的sqlNode，并组装成一个MixedSqlNode,然后将这个MixedSqlNode封装到SqlSource中，当SqlSource调用
  getBoundSql方法时，会对mixedSqlNode进行解析，调用每个SqlNode的apply()方法，这时${}这样的会替换成值，并把#{username}解析成“?”，把username参数

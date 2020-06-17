@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c687dc3a-4113-4af0-88b9-d78e03a69702" name="Default Changelist" comment="leecode题库题目">
+      <change afterPath="$PROJECT_DIR$/leecode/src/main/java/middle/MaxScoreSightseeingPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/client/JavaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/server/JavaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/InvalidOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/tutorialConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/util/CalculatorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/resources/shared.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/resources/tutorial.thrift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skills/mybatis/myframework/tutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skills/mybatis/myframework/tutorial.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,46 +76,154 @@
     <favorites_list name="learn" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leecode/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="475">
+              <caret line="24" column="86" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="86" />
+              <folding>
+                <element signature="class#AsyncClient#0;class#SharedService#0" />
+                <element signature="class#Processor#0;class#SharedService#0" />
+                <element signature="class#AsyncProcessor#0;class#SharedService#0" />
+                <element signature="class#getStruct_args#0;class#SharedService#0" />
+                <element signature="class#getStruct_result#0;class#SharedService#0" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/server/JavaServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/client/JavaClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mongo.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leecode/src/main/java/middle/MaxScoreSightseeingPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leecode/src/main/java/simple/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            <state relative-caret-position="407">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/config/RedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/util/CalculatorHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="1525">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="650">
+              <caret line="1175" column="30" selection-start-line="1175" selection-start-column="22" selection-end-line="1175" selection-end-column="30" />
+              <folding>
+                <element signature="class#Iface#0;class#Calculator#0" />
+                <element signature="docComment;method#ping#0;class#Iface#0;class#Calculator#0" />
+                <element signature="class#AsyncIface#0;class#Calculator#0" />
+                <element signature="class#Client#0;class#Calculator#0" />
+                <element signature="e#2403#2404#0" expanded="true" />
+                <element signature="e#2444#2445#0" expanded="true" />
+                <element signature="method#getClient#1;class#Factory#0;class#Client#0;class#Calculator#0" />
+                <element signature="class#AsyncClient#0;class#Calculator#0" />
+                <element signature="class#Processor#0;class#Calculator#0" />
+                <element signature="e#14587#14588#0" expanded="true" />
+                <element signature="e#14618#14619#0" expanded="true" />
+                <element signature="e#14667#14668#0" expanded="true" />
+                <element signature="e#14707#14708#0" expanded="true" />
+                <element signature="e#14745#14746#0" expanded="true" />
+                <element signature="e#14775#14776#0" expanded="true" />
+                <element signature="e#14847#14848#0" expanded="true" />
+                <element signature="e#14877#14878#0" expanded="true" />
+                <element signature="e#15207#15208#0" expanded="true" />
+                <element signature="e#15237#15238#0" expanded="true" />
+                <element signature="e#15285#15286#0" expanded="true" />
+                <element signature="e#15324#15325#0" expanded="true" />
+                <element signature="e#15362#15363#0" expanded="true" />
+                <element signature="e#15392#15393#0" expanded="true" />
+                <element signature="e#15464#15465#0" expanded="true" />
+                <element signature="e#15494#15495#0" expanded="true" />
+                <element signature="e#15912#15913#0" expanded="true" />
+                <element signature="e#15948#15949#0" expanded="true" />
+                <element signature="e#16002#16003#0" expanded="true" />
+                <element signature="e#16047#16048#0" expanded="true" />
+                <element signature="e#16085#16086#0" expanded="true" />
+                <element signature="e#16115#16116#0" expanded="true" />
+                <element signature="e#16187#16188#0" expanded="true" />
+                <element signature="e#16217#16218#0" expanded="true" />
+                <element signature="e#16745#16746#0" expanded="true" />
+                <element signature="e#16775#16776#0" expanded="true" />
+                <element signature="e#16823#16824#0" expanded="true" />
+                <element signature="e#16862#16863#0" expanded="true" />
+                <element signature="e#16900#16901#0" expanded="true" />
+                <element signature="e#16929#16930#0" expanded="true" />
+                <element signature="e#17001#17002#0" expanded="true" />
+                <element signature="e#17031#17032#0" expanded="true" />
+                <element signature="class#AsyncProcessor#0;class#Calculator#0" />
+                <element signature="class#ping_args#0;class#Calculator#0" />
+                <element signature="class#ping_result#0;class#Calculator#0" />
+                <element signature="class#add_args#0;class#Calculator#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Work.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="19" column="122" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedStruct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -125,11 +247,13 @@
       <find>skills</find>
       <find>mico</find>
       <find>ssssssssss</find>
+      <find>shared</find>
     </findStrings>
     <replaceStrings>
       <replace>mybatis1</replace>
       <replace>mico</replace>
       <replace>skills</replace>
+      <replace>com.skills.rpc.thrift.java.shared</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\code\learn\src\main\java\com\mico</dir>
@@ -141,15 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/io/Resources.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/config/MappedStatement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/handler/iface/TokenHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/handler/BindingTokenParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/sqlnode/TextSqlNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/utils/GenericTokenParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/SqlSession.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/SqlSessionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/iface/SqlSessionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/utils/CommUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis1/config/MappedStatement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/DefaultSqlSessionFactory.java" />
@@ -192,6 +307,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/leecode/src/main/java/simple/LongestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skills/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/resources/HelloService.thrift" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/ThriftServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/server/JavaServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/util/CalculatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/client/JavaClient.java" />
+        <option value="$PROJECT_DIR$/leecode/src/main/java/middle/MaxScoreSightseeingPair.java" />
       </list>
     </option>
   </component>
@@ -219,8 +343,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
-    <option name="y" value="96" />
+    <option name="x" value="540" />
+    <option name="y" value="140" />
     <option name="width" value="1345" />
     <option name="height" value="780" />
   </component>
@@ -234,17 +358,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +391,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -283,54 +412,12 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="myframework" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -348,7 +435,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592282346531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592408907046" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -382,11 +469,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\learn\src\main\java\com\skills\rpc\thrift" />
+      <recent name="E:\code\learn\src\main\java\com\skills\rpc\thrift\" />
       <recent name="E:\code\learn\leecode\src\main\java\simple" />
       <recent name="E:\code\learn\src\main\java\com\mico\mybatis\myframework\mybatis2" />
       <recent name="E:\code\learn\src\main\java\com\mico\mybatis\myframework\mybatis2\sqlsource" />
-      <recent name="E:\code\learn\src\main\java\com\mico\mybatis\myframework\mybatis1\utils" />
-      <recent name="E:\code\learn\src\main\java\com\mico\mybatis\myframework\mybatis1" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mico.mybatis.myframework.mybatis2.factory" />
@@ -408,13 +495,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Entrance (1)">
-    <configuration name="Entrance (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mico.mybatis.myframework.mybatis2.Entrance" />
+  <component name="RunManager" selected="Application.JavaClient">
+    <configuration name="JavaClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skills.rpc.thrift.java.client.JavaClient" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mico.mybatis.myframework.mybatis2.*" />
+          <option name="PATTERN" value="com.skills.rpc.thrift.java.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,12 +509,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entrance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mico.Entrance" />
+    <configuration name="JavaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skills.rpc.thrift.java.server.JavaServer" />
       <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mico.*" />
+          <option name="PATTERN" value="com.skills.rpc.thrift.java.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,47 +522,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entriance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mico.Entriance" />
+    <configuration name="LearnApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyPageHelperTest.SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mico.mybatis.pagehelper" />
-      <option name="MAIN_CLASS_NAME" value="com.mico.MyPageHelperTest" />
-      <option name="METHOD_NAME" value="SelectTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTransactionTest.transfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mico.mybatis.tx" />
-      <option name="MAIN_CLASS_NAME" value="com.mico.UserTransactionTest" />
-      <option name="METHOD_NAME" value="transfer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.skills.learn.LearnApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -487,13 +536,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JavaServer" />
+      <item itemvalue="Application.JavaClient" />
+      <item itemvalue="Spring Boot.LearnApplication" />
+      <item itemvalue="Spring Boot.LearnApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Entrance (1)" />
-        <item itemvalue="Application.Entrance" />
-        <item itemvalue="Application.Entriance" />
-        <item itemvalue="JUnit.MyPageHelperTest.SelectTest" />
-        <item itemvalue="JUnit.UserTransactionTest.transfer" />
+        <item itemvalue="Application.JavaClient" />
+        <item itemvalue="Application.JavaServer" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +586,8 @@
       <workItem from="1592008523874" duration="2824000" />
       <workItem from="1592040679230" duration="152000" />
       <workItem from="1592280922023" duration="307000" />
-      <workItem from="1592281279024" duration="1078000" />
+      <workItem from="1592281279024" duration="7769000" />
+      <workItem from="1592406265682" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="mongo集成">
       <created>1576826023420</created>
@@ -641,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592282350016</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="leecode题库题目">
+      <created>1592282363784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592282363784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -677,12 +737,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85642000" />
+    <option name="totallyTimeSpent" value="94175000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85714287" visible="true" weight="0.20308311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85714287" visible="true" weight="0.25737265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -692,18 +762,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.5733138" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40469208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.071847506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2521994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.5690349" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5690349" weight="0.34164223" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49932975" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23607038" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23167156" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.43096516" side_tool="true" weight="0.20381232" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.43695015" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.47360703" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32991204" />
       <window_info anchor="bottom" id="Build" order="16" weight="0.29912025" />
@@ -720,6 +790,45 @@
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="10" side_tool="true" visible="true" weight="0.22453083" />
       <window_info anchor="right" id="Gradle" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85714287" visible="true" weight="0.35952848" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.1632184" side_tool="true" weight="0.13530326" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.5733138" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40469208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2521994" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5690349" weight="0.34164223" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49932975" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23167156" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.43096516" side_tool="true" weight="0.20381232" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.43695015" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.32991204" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32991204" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.29912025" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.119585685" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.19839142" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.14628099" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="10" side_tool="true" visible="true" weight="0.22453083" />
+      <window_info anchor="right" id="Gradle" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -815,6 +924,16 @@
     <state x="1292" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/HelloService.java</url>
+          <line>1769</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="context.getBindings()" language="JAVA" />
@@ -837,61 +956,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/config/MappedStatement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/DefaultSqlSessionFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/config/Configuration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/config/DataSource.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/xmlbuilder/XMLStatementBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/handler/StatementHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/executor/SimpleExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/iface/SqlSession.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/mybatis/myframework/mybatis2/factory/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/handler/ParameterHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/xmlbuilder/XMLConfigBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/xmlbuilder/XMLMapperBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/entity/Table.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/entity/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/factory/SqlSessionFactoryBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/Entrance.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/pojo/UserList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/mybatis/myframework/mybatis2/sqlsource/BoundSql.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mico/controller/BookController.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mico/mysql/daoTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/myframework/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2576">
-          <folding>
-            <element signature="e#0#4939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1009,17 +1073,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/mysql/TableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leecode/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/leecode/src/main/java/simple/sss.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/leecode/src/main/java/simple/sss.class" />
     <entry file="file://$PROJECT_DIR$/leecode/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1037,28 +1092,225 @@
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/leecode/src/main/java/simple/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/mybatis/myframework/tutorial.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-300" />
+          <first_editor relative-caret-position="800">
+            <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/mysql/TableImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="400">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/HelloServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/resources/HelloService.thrift" />
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_151/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/thrift/libthrift/0.13.0/libthrift-0.13.0.jar!/org/apache/thrift/protocol/TProtocolFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/thrift/libthrift/0.13.0/libthrift-0.13.0.jar!/org/apache/thrift/protocol/TBinaryProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="337" column="15" selection-start-line="337" selection-start-column="15" selection-end-line="337" selection-end-column="15" />
+          <folding>
+            <element signature="e#11580#11581#0" expanded="true" />
+            <element signature="e#11621#11622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/thrift/libthrift/0.13.0/libthrift-0.13.0.jar!/org/apache/thrift/TProcessorFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/HelloService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/ThriftServer.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/thrift/libthrift/0.13.0/libthrift-0.13.0.jar!/org/apache/thrift/server/TServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/tutorialConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Operation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/InvalidOperation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/resources/shared.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="86" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="86" />
+          <folding>
+            <element signature="class#AsyncClient#0;class#SharedService#0" />
+            <element signature="class#Processor#0;class#SharedService#0" />
+            <element signature="class#AsyncProcessor#0;class#SharedService#0" />
+            <element signature="class#getStruct_args#0;class#SharedService#0" />
+            <element signature="class#getStruct_result#0;class#SharedService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/server/JavaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/client/JavaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/util/CalculatorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="1175" column="30" selection-start-line="1175" selection-start-column="22" selection-end-line="1175" selection-end-column="30" />
+          <folding>
+            <element signature="class#Iface#0;class#Calculator#0" />
+            <element signature="docComment;method#ping#0;class#Iface#0;class#Calculator#0" />
+            <element signature="class#AsyncIface#0;class#Calculator#0" />
+            <element signature="class#Client#0;class#Calculator#0" />
+            <element signature="e#2403#2404#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="method#getClient#1;class#Factory#0;class#Client#0;class#Calculator#0" />
+            <element signature="class#AsyncClient#0;class#Calculator#0" />
+            <element signature="class#Processor#0;class#Calculator#0" />
+            <element signature="e#14587#14588#0" expanded="true" />
+            <element signature="e#14618#14619#0" expanded="true" />
+            <element signature="e#14667#14668#0" expanded="true" />
+            <element signature="e#14707#14708#0" expanded="true" />
+            <element signature="e#14745#14746#0" expanded="true" />
+            <element signature="e#14775#14776#0" expanded="true" />
+            <element signature="e#14847#14848#0" expanded="true" />
+            <element signature="e#14877#14878#0" expanded="true" />
+            <element signature="e#15207#15208#0" expanded="true" />
+            <element signature="e#15237#15238#0" expanded="true" />
+            <element signature="e#15285#15286#0" expanded="true" />
+            <element signature="e#15324#15325#0" expanded="true" />
+            <element signature="e#15362#15363#0" expanded="true" />
+            <element signature="e#15392#15393#0" expanded="true" />
+            <element signature="e#15464#15465#0" expanded="true" />
+            <element signature="e#15494#15495#0" expanded="true" />
+            <element signature="e#15912#15913#0" expanded="true" />
+            <element signature="e#15948#15949#0" expanded="true" />
+            <element signature="e#16002#16003#0" expanded="true" />
+            <element signature="e#16047#16048#0" expanded="true" />
+            <element signature="e#16085#16086#0" expanded="true" />
+            <element signature="e#16115#16116#0" expanded="true" />
+            <element signature="e#16187#16188#0" expanded="true" />
+            <element signature="e#16217#16218#0" expanded="true" />
+            <element signature="e#16745#16746#0" expanded="true" />
+            <element signature="e#16775#16776#0" expanded="true" />
+            <element signature="e#16823#16824#0" expanded="true" />
+            <element signature="e#16862#16863#0" expanded="true" />
+            <element signature="e#16900#16901#0" expanded="true" />
+            <element signature="e#16929#16930#0" expanded="true" />
+            <element signature="e#17001#17002#0" expanded="true" />
+            <element signature="e#17031#17032#0" expanded="true" />
+            <element signature="class#AsyncProcessor#0;class#Calculator#0" />
+            <element signature="class#ping_args#0;class#Calculator#0" />
+            <element signature="class#ping_result#0;class#Calculator#0" />
+            <element signature="class#add_args#0;class#Calculator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/tutorial/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="122" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skills/rpc/thrift/java/shared/SharedStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mongo.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leecode/src/main/java/simple/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leecode/src/main/java/middle/MaxScoreSightseeingPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1128,6 +1380,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15243243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
